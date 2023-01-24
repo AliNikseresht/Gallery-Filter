@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(9987deg, rgb(15, 14, 14), rgb(0, 0, 0));
+    text-transform: capitalize;
+    font-family: 'Explora', cursive;
+
+}
+
+li{
+    list-style-type: none;
+}
+
+.txt{
+    width: 700px;
+    height: 170px;
+    margin: 55px auto;
+}
+
+.txt>h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(154, 120, 35);
+    font-size: 9rem;
+    transition: .4s;
+}
+
+.txt>h1:hover{
+    color: white;
+    filter: drop-shadow(2px 2px 20px rgb(154, 152, 152));
+}
+
+.txt>h3{
+    color: rgb(154, 120, 35);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    transition: .4s;
+}
+
+.txt>h3:hover{
+    color: white;
+    filter: drop-shadow(2px 2px 20px rgb(154, 152, 152));
+}
+
+.txt>ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;    
+
+}
+
+.txt>ul>li>a>i{
+    color: rgb(154, 120, 35);
+    font-size: 30px;
+    padding: 12px;
+    transition: .4s;
+}
+
+.txt>ul>li>a>i:hover{
+    color: white;
+    filter: drop-shadow(2px 2px 15px rgb(154, 152, 152));
+}
+
+.img{
+    width: 100%;
+    height: 100vh;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img>figure>img{
+    width: 410px;
+    height: 270px;
+    filter: grayscale(100%) blur(1px);
+    transition: .4s;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    padding: 10px;
+    transition: .4s;
+}
+
+.img>figure>img:hover{
+    filter: none;
+    filter: drop-shadow(1px 1px 7px white);
+
+
+}
+
+.img>figure>i{
+    font-size: 25px;
+    color: white;
+    transition: .4s;
+    padding: 10px;
+}
+
+.img>figure>i:hover{
+    color: red;
+    filter: drop-shadow(1px 1px 7px white);
+}
+
